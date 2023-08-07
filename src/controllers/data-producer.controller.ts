@@ -13,7 +13,6 @@ export const dataProducer = async (_req: Request, res: Response): Promise<Respon
     // done this in order to mask this attribute in the `Data Governance` stage in the `MiniTransform` section.
     body['username'] = generateUsername();
     await sendToSource(body);
-    // TODO: Send request to Source
     return res.send({message: body}).end();
   } catch (err: any) {
     return res.status(500).json({message: `Internal server error: ${err.message}`})
