@@ -1,0 +1,36 @@
+{
+  "name": "cc-aht-producer",
+  "version": "0.0.1",
+  "description": "In the EtLT Process Flow, this is the 'Producer' that feeds the EtLT-DAG",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon build/index.js",
+    "start": "npm run tsc && node build/index.js",
+    "tsc": "rm -rf build/ && tsc && rm -rf build/__tests__",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "EtLT-DAG",
+    "Producer",
+    "Node",
+    "express",
+    "REST",
+    "API"
+  ],
+  "author": "Marc Melchor <marc.melchor@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "unique-username-generator": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
