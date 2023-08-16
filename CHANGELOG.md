@@ -22,3 +22,10 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - README file.
+
+
+## [0.1.2] -- 2023-08-07
+
+### Added
+
+- Github Actions to automate CI.

@@ -1,6 +1,6 @@
 {
   "name": "cc-aht-producer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "In the EtLT Process Flow, this is the 'Producer' that feeds the EtLT-DAG",
   "main": "index.js",
   "scripts": {
